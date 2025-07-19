@@ -1,6 +1,51 @@
-## file structure
+# CBI-Frontend
+This is the frontend application for the CBI (Central Bank of) project, built with React and Zustand for state management. The application provides interfaces for both admin and staff users to manage community members, contributions, loans, nominees, and documents. It is designed to be responsive and user-friendly, with a focus on performance and maintainability.
 
-```
+
+## Features
+- **Admin Interface**: Manage users, view statistics, and configure settings.
+- **Staff Interface**: Handle member contributions, loans, nominees, and document uploads.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **State Management**: Utilizes Zustand for efficient state management across the application.
+- **API Integration**: Communicates with the backend API for data retrieval and submission.
+## Technologies Used
+- **React**: JavaScript library for building user interfaces.
+- **Zustand**: Lightweight state management library for React.
+- **Axios**: Promise-based HTTP client for making API requests.
+- **Vite**: Fast build tool and development server for modern web applications.
+- **Tailwind CSS**: Utility-first CSS framework for styling the application.
+- **React Router**: Declarative routing for React applications.
+- **dotenv**: Module to load environment variables from a `.env` file.
+- **ESLint**: Tool for identifying and fixing problems in JavaScript code.
+- **Prettier**: Code formatter to maintain consistent code style.
+- **Jest**: JavaScript testing framework for unit and integration tests.
+- **React Testing Library**: Library for testing React components with a focus on user interactions.    
+
+---
+
+## Getting Started
+### Prerequisites
+- Node.js and npm installed on your machine.
+- Basic understanding of React and Zustand for state management.
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd CBI-Frontend
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Create a `.env` file in the root directory and add your environment variables (e.g., API base URL, authentication tokens).
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+5. Open your browser and navigate to `http://localhost:5173` (or the port specified in your `.env` file).
+
+---
+
 /CBI-Frontned
 ├── public/
 ├── src/
@@ -51,10 +96,6 @@
 ├── vite.config.js
 └── package.json
 
-
-```
----
-
 ## file structure explanation   
 
 - **public/**: Contains static assets like the favicon and index.html.
@@ -84,3 +125,20 @@
 - **.env**: Environment variables for the application.
 - **vite.config.js**: Configuration file for Vite, the build tool used in this project.
 - **package.json**: Contains project metadata and dependencies.
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.     
+2. Create a new branch for your feature or bug fix:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m "Add your commit message"
+    ```
+4. Push your changes to your fork:
+    ```bash
+    git push origin feature/your-feature-name   
+    ```
+5. Create a pull request to the main repository.    
