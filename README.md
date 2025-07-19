@@ -46,6 +46,9 @@ This is the frontend application for the CBI (Central Bank of) project, built wi
 
 ---
 
+## File Structure
+
+```
 /CBI-Frontned
 ├── public/
 ├── src/
@@ -95,6 +98,7 @@ This is the frontend application for the CBI (Central Bank of) project, built wi
 ├── .env
 ├── vite.config.js
 └── package.json
+```
 
 ## file structure explanation   
 
