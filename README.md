@@ -1,5 +1,5 @@
 # CBI-Frontend
-This is the frontend application for the CBI (Central Bank of) project, built with React and Zustand for state management. The application provides interfaces for both admin and staff users to manage community members, contributions, loans, nominees, and documents. It is designed to be responsive and user-friendly, with a focus on performance and maintainability.
+This is the frontend application for the CBI (Central Bank of India) project, built with React and Zustand for state management. The application provides interfaces for both admin and staff users to manage community members, contributions, loans, nominees, and documents. It is designed to be responsive and user-friendly, with a focus on performance and maintainability.
 
 
 ## Features
